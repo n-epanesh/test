@@ -3,27 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="img/fav.png" type="image/svg+xml" />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <link
       href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
       rel="stylesheet"
       id="bootstrap-css"
     />
-
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <link
       href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <title>BO&KTS</title>
   </head>
   <body>
     <header>
@@ -32,12 +34,15 @@
           <img src="img/Logotype.svg" class="header_logo_img" />
         </a>
         <div class="menu-nav">
-            <a href="index.html" class="menu-text">Главная</a>
-            <a href="#services" class="menu-text">Почему мы?</a>
-            <a href="#footer" class="menu-text">Контакты</a>
+          <a href="index.html" class="menu-text">Главная</a>
+          <a href="#services" class="menu-text">Почему мы?</a>
+          <a href="https://wiki.ktshop.io/ " target="wiki" class="menu-text"
+            >Документация</a
+          >
+          <a href="#footer" class="menu-text">Контакты</a>
         </div>
-        <div class="header-button">
-          <a href="#">Заказать</a>
+        <div class="header-button glow-on-hover btn">
+          <a href="#contacts" target="tg_bot">Заказать</a>
         </div>
       </div>
     </header>
@@ -51,7 +56,7 @@
         <img src="./img/ac945d3103fce00dd38b31f8d34e272e.png" alt="" />
       </div>
       <div class="adaptive-header-button">
-        <a href="#">Заказать</a>
+        <a href="https://t.me/Ktshop24Bot" target="tg_bot">Заказать</a>
       </div>
     </main>
     <section class="services" id="services">
@@ -66,49 +71,49 @@
         <div class="swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="./img/item_1-adaptive.png" alt="" />
+              <img src="./img/item_1.png" alt="" />
             </div>
             <div class="swiper-slide">
               <img src="./img/item_2-adaptive.png" alt="" />
             </div>
             <div class="swiper-slide">
-              <img src="./img/item_3-adaptive.png" alt="" />
+              <img src="./img/item_3.png" alt="" />
             </div>
             <div class="swiper-slide">
-              <img src="./img/item_4-adaptive.png" alt="" />
+              <img src="./img/item_4.png" alt="" />
             </div>
             <div class="swiper-slide">
-              <img src="./img/item_5-adaptive.png" alt="" />
+              <img src="./img/item_5.png" alt="" />
             </div>
             <div class="swiper-slide">
-              <img src="./img/item_6-adaptive.png" alt="" />
+              <img src="./img/item_6.png" alt="" />
             </div>
             <div class="swiper-slide">
-              <img src="./img/item_7-adaptive.png" alt="" />
+              <img src="./img/item_7.png" alt="" />
             </div>
             <div class="swiper-slide">
-              <img src="./img/item_8-adaptive.png" alt="" />
+              <img src="./img/item_8.png" alt="" />
             </div>
             <div class="swiper-slide">
               <img src="./img/item_9-adaptive.png" alt="" />
             </div>
             <div class="swiper-slide">
-              <img src="./img/item_10-adaptive.png" alt="" />
+              <img src="./img/item_10.png" alt="" />
             </div>
             <div class="swiper-slide">
               <img src="./img/item_11-adaptive.png" alt="" />
             </div>
             <div class="swiper-slide">
-              <img src="./img/item_12-adaptive.png" alt="" />
+              <img src="./img/item_12.png" alt="" />
             </div>
             <div class="swiper-slide">
-              <img src="./img/item_13-adaptive.png" alt="" />
+              <img src="./img/item_13.png" alt="" />
             </div>
             <div class="swiper-slide">
-              <img src="./img/item_14-adaptive.png" alt="" />
+              <img src="./img/item_14.png" alt="" />
             </div>
             <div class="swiper-slide">
-              <img src="./img/item_15-adaptive.png" alt="" />
+              <img src="./img/item_15.png" alt="" />
             </div>
           </div>
           <div class="swiper-pagination"></div>
@@ -167,48 +172,127 @@
         </div>
       </div>
     </section>
-    <section class="payments">
-      <img src="./img/Bitcoin-Logo.svg" alt="bitcoin">
-      <img src="./img/mir.svg" alt="mir">
-      <img src="./img/Group.svg" alt="mastercard">
-      <img src="./img/visa.svg" alt="visa">
-      <img src="./img/usdt.svg" alt="usdt">
+    <section class="payments" id="contacts">
+      <img src="./img/Bitcoin-Logo.svg" alt="bitcoin" class="btc_img" />
+      <img src="./img/mir.svg" alt="mir" class="mir_img" />
+      <img src="./img/Group.svg" alt="mastercard" class="payments_img" />
+      <img src="./img/visa.svg" alt="visa" class="payments_img" />
+      <img src="./img/usdt.svg" alt="usdt" class="usdt_img" />
     </section>
+
     <section class="teams">
       <div class="teams-container">
-        <span>Получи бесплатную консультацию <br> по вашему проекту </span>
-        <form class="contacts_item2_container" action="telegram.php" method="POST">
-          <div class="name-container">
-            <span>Твое имя</span>
-            <input name="user_name" placeholder="Как к тебе обращаться?" ></input>
-          </div>
-          <div class="name-container">
-            <span>Ваш адрес эл.почты</span>
-            <input name="user_email" placeholder="Электронная почта" ></input>
-          </div>
-          <button class="contacts_item4" type="submit">Получить констультацию</button>
-        
+        <span
+          >Получи бесплатную консультацию <br />
+          по вашему проекту
+        </span>
       </div>
-     
+      <form class="form" method="post" action="/send.php">
+        <div class="form__item">
+          <input class="form__input" type="text" name="name" required>
+          <label class="form__label">Ваше имя</label>
+        </div>
+        <div class="form__item">
+          <input class="form__input" type="text" name="phone" required>
+          <label class="form__label">Номер телефона</label>
+        </div>
+        <input class="form__input btn" type="submit" value="Отправить">
+        <input type="hidden" name="act" value="order">
+      </form>
+      <!-- <section class="teams" id="contacts">
+      <div class="teams-container">
+        <span
+          >Получи бесплатную консультацию <br />
+          по вашему проекту
+        </span>
+        <form
+          class="contacts_item2_container"
+          action="telegram.php"
+          method="post"
+        >
+          <div class="name-container">
+            <span class="name-container_descr">Имя</span>
+            <input name="name" placeholder="Как к тебе обращаться?" required />
+          </div>
+          <div class="name-container">
+            <span class="name-container_descr">Контакты</span>
+            <input name="phone" placeholder="Ваши контакты" required />
+          </div>
+          <div>
+            <button class="contacts_item4 btn" type="submit">
+              Получить констультацию
+            </button>
+            <input type="hidden" name="act" value="order" />
+          </div>
+        </form> -->
+
+      <!-- <form
+          class="contacts_item2_container"
+          method="POST"
+          action="telegram.php"
+        >
+          <div class="name-container">
+            <label class="name-container_descr">Ваше имя</label>
+            <input
+              type="text"
+              name="name"
+              placeholder="Как к тебе обращаться?"
+              required
+            />
+          </div>
+          <div class="name-container">
+            <label class="name-container_descr">Контакты</label>
+            <input
+              type="text"
+              name="phone"
+              placeholder="Ваши контакты"
+              required
+            />
+          </div>
+          <input
+            class="contacts_item4 btn header_buttom"
+            type="submit"
+            value="Получить констультацию"
+            name="act"
+          />
+        </form> -->
     </section>
 
     <ul class="wrapper">
-
+      <a href="https://t.me/ktshop24" target="tg">
         <li class="icon telegram">
           <span class="tooltip">Telegram</span>
-          <img src="./img/tg.svg" alt="" width="30px" style="    margin-left: -5px;">
+          <img
+            src="./img/tg.svg"
+            alt=""
+            width="30px"
+            style="margin-left: -5px"
+          />
         </li>
+      </a>
+      <a href="https://jabber.org/ktshop24@jabb.im" target="jb">
         <li class="icon twitter">
           <span class="tooltip">Jabber</span>
-          <img src="./img/jb.svg" alt="" width="30px">
+          <img src="./img/jb.svg" alt="" width="22px" />
         </li>
-        <li class="icon instagram" style="background: #ffffff00;">
+      </a>
+      <a href="https://element.io/@ktshop24:matrix.org" target="el">
+        <li class="icon instagram">
           <span class="tooltip">Element</span>
-          <img src="./img/el.svg" alt="" width="50px">
+          <img src="./img/el.svg" alt="" width="30px" />
         </li>
- 
+      </a>
     </ul>
+    <script>
+      document.addEventListener("DOMContentLoaded", function (event) {
+        var scrollpos = localStorage.getItem("scrollpos");
+        if (scrollpos) window.scrollTo(0, scrollpos);
+      });
 
+      window.onbeforeunload = function (e) {
+        localStorage.setItem("scrollpos", window.scrollY);
+      };
+    </script>
     <script>
       const swiper = new Swiper(".swiper", {
         // If we need pagination
